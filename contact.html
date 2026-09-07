@@ -43,7 +43,14 @@
             <div class="container">
                 <p>以下のフォームに必要事項をご記入の上、送信してください。後ほど担当者よりご連絡させていただきます。</p>
 
-                <form action="#" method="POST" class="contact-form-elements">
+               <form action="https://formspree.io/f/https://formspree.io/f/mvkobejg" method="POST">
+                   <!-- お名前 -->
+                <input type="text" name="name" required>
+                <!-- メールアドレス（※この "email" という名前にしておくと、送信者に自動返信が送りやすくなります） -->
+                <input type="email" name="email" required>
+                <!-- メッセージ内容 -->
+                <textarea name="message" required></textarea>
+                   
                     <div class="form-group">
                         <label for="company_name">会社名</label>
                         <input type="text" id="company_name" name="company_name">
